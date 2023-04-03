@@ -53,25 +53,24 @@ export default function CustomizedAccordions() {
     <div>
       <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
         <AccordionSummary aria-controls="panel1d-content" id="panel1d-header">
-          <Typography>Mini Project</Typography>
+          <Typography>POWERBI</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-          Searching Encrypted Cloud Data Using Several Keywords
+          Completed PowerBI Workshop from ICT Academy
           </Typography>
         </AccordionDetails>
       </Accordion>
       <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
         <AccordionSummary aria-controls="panel2d-content" id="panel2d-header">
-          <Typography>Capstone Project</Typography>
+          <Typography>Full Stack Web Development</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Created "JUST DANCE NOW" Web Application
+            I have Completed this Workshop from Edunet Foundation
           </Typography>
         </AccordionDetails>
       </Accordion>
-      
     </div>
   );
 }

@@ -17,7 +17,7 @@ import { deepOrange} from '@mui/material/colors';
 import Face3Icon from '@mui/icons-material/Face3';
 
 
-const pages = ['Aboutus', 'Qualification', 'Skills','Experience','Projects','Hobbies'];
+const pages = ['Aboutme', 'Qualification', 'Skills','Experience','Projects','Hobbies','Certifications','Workshops','Contactme'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 function INavbar() {
